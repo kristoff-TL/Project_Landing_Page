@@ -10,7 +10,6 @@
 /* Body styles */
 body {
 	margin: 0;
-	overflow: hidden;
 	font-family: Roboto;
 	display: flex;
 	flex-direction: column;
@@ -20,15 +19,17 @@ body {
 .header {
 	display: flex;
 	flex-direction: column;
-	background-color: rgb(244, 196, 249);
-	padding: 0 250px;
+	background-color: #1f2937;
+	padding: 0 200px;
 }
 
 .header_content {
 	display: flex;
 	justify-content: space-between;
-	padding: 16px 0;
+	padding: 16px 0 0 0;
 	background-color: #1f2937;
+	flex-wrap: wrap;
+	row-gap: 12px;
 }
 
 .logo {
@@ -48,7 +49,7 @@ ul {
 	padding: 0;
 	gap: 1em;
 	color: #e5e7eb;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 300;
 }
 
@@ -57,4 +58,45 @@ a {
 	color: inherit;
 }
 
-/* Test commit */
+/* hero content */
+.hero_content {
+	display: flex;
+	background-color: #1f2937;
+	padding: 100px 0;
+	justify-content: space-between;
+	column-gap: 100px;
+}
+
+.left_content {
+	flex: 1 1 0px;
+}
+
+.right_content {
+	flex: 1 1 0px;
+	display: flex;
+	background-color: #e5e7eb;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.heading_2 {
+	color: #f9faf8;
+	font-size: 48px;
+	font-weight: 600;
+}
+
+.body_text {
+	color: #e5e7eb;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.call_to_action_button {
+	color: #f9faf8;
+	font-weight: 600;
+	background-color: #3882f6;
+	border: none;
+	border-radius: 6px;
+	padding: 6px 24px;
+}
