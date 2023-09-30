@@ -62,9 +62,10 @@ a {
 .hero_content {
 	display: flex;
 	background-color: #1f2937;
-	padding: 100px 0;
+	padding: 120px 0;
 	justify-content: space-between;
-	column-gap: 100px;
+	column-gap: 72px;
+	flex-wrap: wrap;
 }
 
 .left_content {
@@ -84,12 +85,14 @@ a {
 	color: #f9faf8;
 	font-size: 48px;
 	font-weight: 600;
+	margin: 0;
 }
 
 .body_text {
 	color: #e5e7eb;
 	font-size: 16px;
 	font-weight: 300;
+	padding: 6px 0 16px 0;
 }
 
 .call_to_action_button {
@@ -100,3 +103,64 @@ a {
 	border-radius: 6px;
 	padding: 6px 24px;
 }
+
+
+/* section two  */
+.section_two {
+	display: flex;
+	flex-direction: column;
+	padding: 0 200px;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.heading_3 {
+	font-size: 36px;
+	font-weight: 600;
+	color: #1F2937;
+	padding: 42px 0;
+	text-align: center;
+}
+
+.section_two_info {
+	display: flex;
+	flex-direction: row;
+	column-gap: 36px;
+	padding: 0 100px 100px;
+	justify-content: center;
+	flex-wrap: wrap;
+	row-gap: 16px;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	max-width: 150px;
+}
+
+.box {
+	border-style: solid;
+	border-color: #3882f6;
+	border-width: 3px;
+	border-radius: 12px;
+	width: 150px;
+	height: 150px;
+	
+}
+
+.info_text {
+	color: #1f2937;
+	justify-content: center;
+	padding: 8px 0;
+	text-align: center;
+}
+
+
+/* section three */
+/* .section_three {
+	display: flex;
+	flex-direction: column;
+	background-color: #e5e7eb;
+	padding: 100px 200px;
+} */
