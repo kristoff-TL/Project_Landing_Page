@@ -100,6 +100,7 @@ a {
 	border: none;
 	border-radius: 6px;
 	padding: 6px 24px;
+	flex-shrink: 0;
 }
 
 
@@ -180,3 +181,29 @@ a {
 	color: #1f2937;
 	align-self: flex-end;
 }
+
+/* section four */
+.section_four {
+	display: flex;
+	flex-direction: column;
+	padding: 100px 200px;
+	justify-content: center;
+}
+
+.signup_container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #3882f6;
+	border-radius: 8px;
+	padding: 50px 100px;
+	gap: 100px;
+}
+
+.inverse_button {
+	border: solid;
+	border-width: 2px;
+	border-color: #f9faf8;
+	padding: 6px 24px;
+}
+
