@@ -84,13 +84,13 @@ a {
 	font-size: 48px;
 	font-weight: 600;
 	margin: 0;
+	padding: 0;
 }
 
 .body_text {
 	color: #e5e7eb;
 	font-size: 16px;
 	font-weight: 300;
-	padding: 6px 0 16px 0;
 }
 
 .call_to_action_button {
@@ -99,8 +99,9 @@ a {
 	background-color: #3882f6;
 	border: none;
 	border-radius: 6px;
-	padding: 6px 24px;
+	padding: 6px 28px;
 	flex-shrink: 0;
+	margin-top: 12px;
 }
 
 
@@ -111,7 +112,6 @@ a {
 	padding: 0 200px;
 	align-items: center;
 	justify-content: center;
-	
 }
 
 .heading_3 {
@@ -153,6 +153,7 @@ a {
 	justify-content: center;
 	padding: 8px 0;
 	text-align: center;
+	margin-top: 8px;
 }
 
 
@@ -160,14 +161,13 @@ a {
 .section_three {
 	display: flex;
 	background-color: #e5e7eb;
-	padding: 120px 200px;
+	padding: 120px 50px;
 	justify-content: center;
 }
 
 .quote {
 	display: flex;
 	flex-direction: column;
-	max-width: 800px;
 }
 
 .quote_text {
@@ -177,7 +177,7 @@ a {
 	font-weight: 300;
 }
 
-.quote_author {
+.bold_text {
 	color: #1f2937;
 	align-self: flex-end;
 }
@@ -198,12 +198,33 @@ a {
 	border-radius: 8px;
 	padding: 50px 100px;
 	gap: 100px;
+	flex-wrap: wrap;
+	row-gap: 12px;
+}
+
+.signup_left {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.signup_right {
+	display: flex;
+	align-items: flex-end;
 }
 
 .inverse_button {
 	border: solid;
 	border-width: 2px;
 	border-color: #f9faf8;
-	padding: 6px 24px;
+	flex-shrink: 0;
 }
 
+.bold_inverse_text {
+	color: #f9faf8;
+	padding: 0;
+}
+
+.body_text {
+	padding: 0;
+}
