@@ -14,6 +14,7 @@ body {
 	flex-direction: column;
 }
 
+
 /* Header styles */
 .header {
 	display: flex;
@@ -69,7 +70,7 @@ a {
 }
 
 .left_content {
-	flex: 1 1 0px;
+	flex: 1 1 0;
 }
 
 .right_content {
@@ -201,6 +202,7 @@ a {
 	flex-direction: column;
 	padding: 100px 200px;
 	justify-content: center;
+
 }
 
 .signup_container {
